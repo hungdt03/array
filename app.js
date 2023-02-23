@@ -93,6 +93,7 @@ function handle(arr, index) {
             writeResult.innerHTML = "Mảng số thực: [" + st + "] | Số lượng số nguyên: " + countInt(st);
             break;
         case 9:
+            writeResult.innerHTML = compare(arr)
             break;
         default:
             console.log('KKKKKKK')   
