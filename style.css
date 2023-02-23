@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(83, 244, 19);
+}
+
+
+.row {
+    
+    display: flex;
+    padding: 0 32px;
+}
+
+.sidebar {
+    margin-right: 32px;
+}
+
+.sidebar-title {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    background-color: yellow;
+    padding: 12px;
+}
+
+.sidebar-list-item {
+    padding: 8px 6px;
+    background-color: chocolate;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.content-title {
+    margin-bottom: 32px;
+    background-color: darkcyan;
+    color: white;
+    padding: 12px;
+}
+
+.label-input {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#label-input {
+    padding: 9px 6px;
+    width: 100%;
+}
+
+.btn-submit {
+    padding: 8px 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.array-view {
+    margin-top: 16px;
+}
+
+.array-title {
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 3px solid yellow;
+    color: white;
+}
+
+.array-write {
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.result {
+    margin-top: 32px;
+    padding: 0 32px;
+}
+
+.result-title {
+    color: crimson;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.write-result {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 55, 0);
+}
+
+.active {
+    background-color: darkgreen;
+}
